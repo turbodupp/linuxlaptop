@@ -5,19 +5,19 @@ Current itteration is specificly for running POP!_os 19.04 @ thinkpad x1 6th gen
 NOTE: currently running 19.10 after an upgrade
 
 ##### Table of Contents
-[Setting up power management and S3 sleep](#powersleep)
+- [Setting up power management and S3 sleep](#powersleep)
 
-[Outlook, teams, rocketchat](#franz)
+- [Outlook, teams, rocketchat](#franz)
 
-[Anyconnect VPN](#vpn)
+- [Anyconnect VPN](#vpn)
 
-[Shell environment](#shell)
+- [Shell environment](#shell)
 
-[Other stuff](#other)
+- [Other stuff](#other)
 
-[Untested](#nottested)
+- [Untested](#nottested)
 
-[Links](#links)
+- [Links](#links)
 
 
 <a name="powersleep"/>
@@ -44,7 +44,7 @@ Same goes with outlook o365/teams, just add and log in.
 
 ### 2. Anyconnect VPN
 
-https://faq.oit.gatech.edu/content/how-do-i-install-cisco-anyconnect-client-linux
+- https://faq.oit.gatech.edu/content/how-do-i-install-cisco-anyconnect-client-linux
 this was relevant, but HER MÅ DET MER INFO SENERE
  
  
