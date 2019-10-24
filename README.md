@@ -81,3 +81,13 @@ Plugins im currently using:
 
 - <b>zsh-syntax-highlighting</b>
 `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+
+#### 3.3 Cloud SDK's
+
+- **Gcloud sdk**
+`curl https://sdk.cloud.google.com | bash`
+`gcloud init`
+
+- **IBM Cloud cli**
+`curl -sL https://ibm.biz/idt-installer | bash`
+`ibmcloud login`
