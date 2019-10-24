@@ -48,9 +48,20 @@ this was relevant, but HER MÅ DET MER INFO SENERE
  
 ### 3. Shell env
 
-Currently running ZSH with powerlevel10k theme
+Currently running ZSH with powerlevel10k theme, to install it do:
+`sudo apt install zsh`
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+`git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k`
 
+then edit ~/.zshrc and change ZSH_THEME to powerlevel10k/powerlevel10k
 
+next time you restart shell it should start the powerlevel10k install
+
+However you do need propper fonts for it to display properly. Currently im using meslo LGS, which you can get here:
+[Meslo LGS Regular](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Regular.ttf)
+[Meslo LGS Regular bold](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Bold.ttf)
+[Meslo LGS Italic](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Italic.ttf)
+[Meslo LGS Bold Italic](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Bold%20Italic.ttf)
 
 #### 3.2 Plugins
 
