@@ -28,6 +28,9 @@ IMPORTANT: To enable s3 sleep you need to flash your BIOS to a newer version. Un
 
 Only thing you have to change is <b> sleep settings in bios, change from windows to other/linux </b>
 
+- it should be noted that you CAN get better battery life by installing some optional tools, altho POP is decent at this baseline
+`sudo apt install tlp tlp-rdw acpi-call-dkms tp-smapi-dkms acpi-call-dkms`
+
 <a name="franz"/>
 
 ### 1. Communication suite. Getting outlook, teams and rocketchat up and running.
