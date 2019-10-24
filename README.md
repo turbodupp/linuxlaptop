@@ -51,7 +51,9 @@ this was relevant, but HER MÅ DET MER INFO SENERE
 Currently running ZSH with powerlevel10k theme
 
 
+
 #### 3.2 Plugins
+
 Plugins im currently using:
 
 git
