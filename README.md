@@ -26,7 +26,7 @@ NOTE: currently running 19.10 after an upgrade
 
 IMPORTANT: To enable s3 sleep you need to flash your BIOS to a newer version. Unsure the specific version at this point, but as of 15. SEP. 2019 the newest BIOS was able to do s3 sleep no problem.
 
-Only thing you have to change is sleep settings in bios, change from windows to other/linux
+Only thing you have to change is <b> sleep settings in bios, change from windows to other/linux </b>
 
 <a name="franz"/>
 
