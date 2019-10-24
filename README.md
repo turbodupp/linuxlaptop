@@ -53,8 +53,11 @@ Currently running ZSH with powerlevel10k theme
 
 #### 3.2 Plugins
 Plugins im currently using:
+
 git
-zsh-autosuggestions | git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+zsh-autosuggestions 
+`git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
 
 kubectl
 
