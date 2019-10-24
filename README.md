@@ -66,6 +66,11 @@ However you do need propper fonts for it to display properly. Currently im using
 - [MesloLGS NF Italic.ttf](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Italic.ttf)
 - [MesloLGS NF Bold Italic.ttf](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Bold%20Italic.ttf)
 
+#### 3.1 Wayland-Yutani custom startup
+
+- [weyland-yutani.bashrc](https://gist.github.com/NoraCodes/ffef855e204da213d6f9)
+- [weyland-yutani.sh](https://gist.github.com/NoraCodes/adeb3f9eff67ae07b877)
+
 #### 3.2 Plugins
 
 Plugins im currently using:
