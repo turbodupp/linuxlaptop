@@ -35,6 +35,7 @@ Only thing you have to change is <b> sleep settings in bios, change from windows
 
 ### 1. Communication suite. Getting outlook, teams and rocketchat up and running.
 
+- **USE FRANZ**
 To get rocketchat working just a self-hosted variant, the rest is self-explanatory.
 Same goes with outlook o365/teams, just add and log in.
 
