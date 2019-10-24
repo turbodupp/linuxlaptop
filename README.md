@@ -67,19 +67,14 @@ However you do need propper fonts for it to display properly. Currently im using
 
 Plugins im currently using:
 
-git
+- **git**
+- **kubectl**
+- **kube-ps1**
+- **colored-man-pages**
+- **helm**
 
-kubectl
-
-kube-ps1
-
-colored-man-pages
-
-helm
-
-<b>zsh-autosuggestions</b>
+- <b>zsh-autosuggestions</b>
 `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
 
-
-<b>zsh-syntax-highlighting</b>
+- <b>zsh-syntax-highlighting</b>
 `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
