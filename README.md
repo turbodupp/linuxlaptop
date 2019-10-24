@@ -53,6 +53,7 @@ this was relevant, but HER MÅ DET MER INFO SENERE
 ### 3. Shell env
 
 Currently running ZSH with powerlevel10k theme, to install it do:
+
 `sudo apt install zsh`
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 `git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k`
