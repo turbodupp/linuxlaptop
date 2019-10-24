@@ -56,18 +56,17 @@ Plugins im currently using:
 
 git
 
-
-zsh-autosuggestions 
-
-`git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
-
-
 kubectl
 
 kube-ps1
 
 colored-man-pages
 
-zsh-syntax-highlighting
-
 helm
+
+<b>zsh-autosuggestions</b>
+`git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+
+
+<b>zsh-syntax-highlighting</b>
+`git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
