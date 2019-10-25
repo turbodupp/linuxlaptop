@@ -117,7 +117,7 @@ Plugins im currently using:
 'gsettings get org.gnome.desktop.lockdown disable-lock-screen'
 
 #### 4.2 Shell extensions
-- *~[KStatusNotifierItem](https://extensions.gnome.org/extension/615/appindicator-support/) - since topicons plus stopped working with 19.10~
+- *~~[KStatusNotifierItem](https://extensions.gnome.org/extension/615/appindicator-support/) - since topicons plus stopped working with 19.10~
 - *[Dash-to-Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
 - *[Shelltile](https://extensions.gnome.org/extension/657/shelltile/)
 - *[Openweather](https://extensions.gnome.org/extension/750/openweather/)
