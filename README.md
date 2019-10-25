@@ -11,7 +11,9 @@ NOTE: currently running 19.10 after an upgrade
 
 - [Anyconnect VPN](#vpn)
 
-- [Shell environment](#shell)
+- [Terminal environment](#shell)
+
+- [Gnome shell](#Gnomeshell)
 
 - [Other stuff](#other)
 
@@ -50,7 +52,7 @@ this was relevant, but HER MÅ DET MER INFO SENERE
  
 <a name="shell"/>
  
-### 3. Shell env
+### 3. Terminal env
 
 Currently running ZSH with powerlevel10k theme, to install it do:
 
@@ -105,3 +107,20 @@ Plugins im currently using:
 - **IBM Cloud cli**
 `curl -sL https://ibm.biz/idt-installer | bash`
 `ibmcloud login`
+
+
+<a name="Gnomeshell"/>
+
+#### 4. Gnome shell
+
+#### 4.1 Lock screen gone?
+'gsettings get org.gnome.desktop.lockdown disable-lock-screen'
+
+#### 4.2 Shell extensions
+~~- *[KStatusNotifierItem](https://extensions.gnome.org/extension/615/appindicator-support/) - since topicons plus stopped working with 19.10 ~~
+- *[Dash-to-Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
+- *[Shelltile](https://extensions.gnome.org/extension/657/shelltile/)
+- *[Openweather](https://extensions.gnome.org/extension/750/openweather/)
+- *[Pomodoro](https://extensions.gnome.org/extension/53/pomodoro/)
+- *[TopIcons-Plus](https://github.com/phocean/TopIcons-plus) bruk manual installation enn så lenge
+
