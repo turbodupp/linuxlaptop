@@ -70,6 +70,8 @@ However you do need propper fonts for it to display properly. Currently im using
 - [MesloLGS NF Italic.ttf](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Italic.ttf)
 - [MesloLGS NF Bold Italic.ttf](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Bold%20Italic.ttf)
 
+- *[syntax highlighting in nano](https://github.com/scopatz/nanorc)
+
 #### 3.1 Guake + byobu
 
 - *install Guake*
