@@ -1,4 +1,4 @@
-~~~Switching to Awesome~~~
+Switching to Awesome
 ====  
 - install Awesome through pamac or pacman
 - packages you want:
