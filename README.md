@@ -126,3 +126,9 @@ Plugins im currently using:
 - *[Pomodoro](https://extensions.gnome.org/extension/53/pomodoro/)
 - *[TopIcons-Plus](https://github.com/phocean/TopIcons-plus) bruk manual installation enn så lenge
 
+<a name="links"/>
+
+### 7. Links ETC
+
+- *Manjaro XFCE4 setup
+[Sepparate howto page](manjaro.md)
