@@ -8,5 +8,5 @@ Manjaro XFCE edition
 
 
 <a name="Awesome"/>
-#### awesome
+#### awesome  
 [How to awesome WM!](/awesome/awesome.md)
