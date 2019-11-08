@@ -63,9 +63,6 @@ Just run nm-applet and blueman-manager
 * Laptop monitor not sutting off when closing lid and connected to dock?  
 I have not figured this one out yet, still todo
 
-<p align="center">
-<p style="text-align: center;"><h3>Things I tried:</h3></p>
+<h3>Things I tried to make it work:</h3>  
+	1. added the arandr output .sh to /etc/X11/xinit/xinitrc.d folder
 
-<h3>Things I tried to make it work
-
-</p>
