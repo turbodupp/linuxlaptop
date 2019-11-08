@@ -63,6 +63,9 @@ Just run nm-applet and blueman-manager
 * Laptop monitor not sutting off when closing lid and connected to dock?  
 I have not figured this one out yet, still todo
 
-<h3>Things I tried to make it work:</h3>  
+   <h3>Things I tried to make it work:</h3>  
 	1. added the arandr output .sh to /etc/X11/xinit/xinitrc.d folder
 
+# Replacement tools + extras
+1. [ncspot(terminal based spotify)](https://github.com/hrkfdn/ncspot)
+2. [vis(useless visualizer)](https://github.com/dpayne/cli-visualizer)
