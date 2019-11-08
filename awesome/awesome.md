@@ -64,6 +64,7 @@ Just run nm-applet and blueman-manager
 I have not figured this one out yet, still todo
 
 <p align="center">
+<p style="text-align: center;"><h3>Things I tried:</h3></p>
 
 <h3>Things I tried to make it work
 
