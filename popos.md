@@ -1,8 +1,8 @@
 # linuxlaptop
 Processes and workarounds for using linux as main OS @ work
 
-Current itteration is specificly for running Manjaro XFCE 18.1 @ thinkpad x1 6th gen
-NOTE: for old POP!os setup, check [here](popos.md)
+Current itteration is specificly for running POP!_os 19.04 @ thinkpad x1 6th gen
+NOTE: currently running 19.10 after an upgrade
 
 ##### Table of Contents
 - [Setting up power management and S3 sleep](#powersleep)
