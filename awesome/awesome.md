@@ -62,3 +62,7 @@ Just run nm-applet and blueman-manager
 
 * Laptop monitor not sutting off when closing lid and connected to dock?  
 I have not figured this one out yet, still todo
+
+
+### -> Things I tried to make it work <-
+
