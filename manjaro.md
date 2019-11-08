@@ -8,7 +8,12 @@ Manjaro XFCE edition
 - * [awesome wm](#awesome)
 
 <a name="issues"/>
-#### Issues
+#### Issues and workarounds
+1. Unable to git push, ssh, key error  
+  Start the sshkey-agent:  
+  `eval "$(ssh-agent -s)"`  
+  add the ssh key:  
+  `ssh-add ~/%pubkey%`  
 
 <a name="Awesome"/>
 #### awesome  
