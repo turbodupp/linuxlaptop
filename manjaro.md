@@ -4,7 +4,11 @@ Manjaro XFCE edition
 - * [Install](#Install)
 - * [Conf](#Conf)
 - * [Use](#Use)
+- * [Issues and workarounds](#issues)
 - * [awesome wm](#awesome)
+
+<a name="issues"/>
+#### Issues and workarounds
 
 
 <a name="Awesome"/>
