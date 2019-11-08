@@ -21,7 +21,7 @@ Så kommer finjusteringen
 you need to edit the run key to something other than R, and then you can add the follow lines above it:
 - `awful.key({ modkey }, "r", function () awful.util.spawn("rofi -show run", false) end),`  
 
-    `awful.key({ modkey }, "l", function () awful.util.spawn("i3lock-fancy -gpf Meslo-LG-S-Regular -- scrot -z", false) end),`  
+- `awful.key({ modkey }, "l", function () awful.util.spawn("i3lock-fancy -gpf Meslo-LG-S-Regular -- scrot -z", false) end),`  
 
 # Autorun.sh  
 ```
@@ -40,6 +40,25 @@ exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 ```
 
 # lockscreen
-* i3lock-fancy-git (in the AUR)
+* i3lock-fancy-git / i3lock-fancy-rapid
 * Lock function is described above autorun
-* 
+* Choose one to use. i3lock-fancy-rapid is faster
+
+* ```
+awful.key({ modkey }, "l", function () awful.util.spawn("i3lock-fancy-rapid 10 5", false) end),
+```
+
+# Extra stuff to remember
+* pamac-manager giving you authentication griefs? Check if you have an authentication agent running. If not, try using something like:  
+`exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & `
+
+* Monitors got messed up/missing layout? Check out ArandR  
+Make and save a layout (.sh file)  
+get it to run somehow! awesome autorun.sh doesnt seem to be able to call it.  
+I should check out xinitrc?
+
+* Network and bluetooth tray icons?  
+Just run nm-applet and blueman-manager
+
+* Laptop monitor not sutting off when closing lid and connected to dock?  
+I have not figured this one out yet, still todo
