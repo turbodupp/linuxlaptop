@@ -8,8 +8,7 @@ Manjaro XFCE edition
 - * [awesome wm](#awesome)
 
 <a name="issues"/>
-#### Issues and workarounds
-
+#### Issues
 
 <a name="Awesome"/>
 #### awesome  
