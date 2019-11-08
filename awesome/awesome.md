@@ -44,7 +44,7 @@ exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 * Lock function is described above autorun
 * Choose one to use. i3lock-fancy-rapid is faster
 
-* ```
+```
 awful.key({ modkey }, "l", function () awful.util.spawn("i3lock-fancy-rapid 10 5", false) end),
 ```
 
