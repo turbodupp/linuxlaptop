@@ -5,7 +5,7 @@ Current itteration is specificly for running Manjaro XFCE 18.1 @ thinkpad x1 6th
 NOTE: for old POP!os setup, check [here](popos.md)
 
 ##### Table of Contents
-- [Setting up power management and S3 sleep](#powersleep)
+- [Setting up disk encryption](#encryption)
 
 - [Outlook, teams, rocketchat](#franz)
 
@@ -22,16 +22,11 @@ NOTE: for old POP!os setup, check [here](popos.md)
 - [Links](#links)
 
 
-<a name="powersleep"/>
+<a name="encryption"/>
 
-### 0. Proper power management and s3 sleep
+### 0. Disk Encryption
 
-IMPORTANT: To enable s3 sleep you need to flash your BIOS to a newer version. Unsure the specific version at this point, but as of 15. SEP. 2019 the newest BIOS was able to do s3 sleep no problem.
-
-Only thing you have to change is <b> sleep settings in bios, change from windows to other/linux </b>
-
-- it should be noted that you CAN get better battery life by installing some optional tools, altho POP is decent at this baseline
-`sudo apt install tlp tlp-rdw acpi-call-dkms tp-smapi-dkms acpi-call-dkms`
+Just use LUKS, you get the option during install
 
 <a name="franz"/>
 
@@ -44,33 +39,42 @@ Same goes with outlook o365/teams, just add and log in.
 
 <a name="vpn"/>
 
-### 2. Anyconnect VPN
+### 2. Openconnect
 
-- https://faq.oit.gatech.edu/content/how-do-i-install-cisco-anyconnect-client-linux
-this was relevant, but HER MÅ DET MER INFO SENERE
+VPN connections can be handled with openconnect, so no need to hunt down an outdated anyconnect version, just install these packages instead:
+
+1. openconnect
+2. networkmanager-openconnect
+
+Congratulations, all you need to connect now is add the address: `%vpn address here%`
  
  
 <a name="shell"/>
  
 ### 3. Terminal env
 
-Currently running ZSH with powerlevel10k theme, to install it do:
+Currently running ZSH with powerlevel10k theme. ZSH comes default on manjaro, but to install p10k do:
 
-`sudo apt install zsh`
-`sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
-`git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k`
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`  
+  
+`git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k`  
 
 then edit ~/.zshrc and change ZSH_THEME to powerlevel10k/powerlevel10k
 
 next time you restart shell it should start the powerlevel10k install
 
-However you do need propper fonts for it to display properly. Currently im using meslo LGS, which you can get here:
-- [MesloLGS NF Regular.ttf](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Regular.ttf)
-- [MesloLGS NF Bold.ttf](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Bold.ttf)
-- [MesloLGS NF Italic.ttf](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Italic.ttf)
-- [MesloLGS NF Bold Italic.ttf](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Bold%20Italic.ttf)
+However you do need propper fonts for it to display properly. Currently im using meslo LGS, which you can get here:  
+- [MesloLGS NF Regular.ttf](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Regular.ttf)  
+- [MesloLGS NF Bold.ttf](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Bold.ttf)  
+- [MesloLGS NF Italic.ttf](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Italic.ttf)  
+- [MesloLGS NF Bold Italic.ttf](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Bold%20Italic.ttf)  
 
-- *[syntax highlighting in nano](https://github.com/scopatz/nanorc)
+or alternatively, install with pacman:  
+`sudo pacman -S ttf-meslo`  
+or if you want more fonts:  
+`sudo pacman -S nerd-fonts-complete`  
+
+- [syntax highlighting in nano](https://github.com/scopatz/nanorc)
 
 #### 3.1 Guake + byobu
 
@@ -94,26 +98,28 @@ Plugins im currently using:
 - **colored-man-pages**
 - **helm**
 
-- <b>zsh-autosuggestions</b>
+- <b>zsh-autosuggestions</b>  
 `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
 
-- <b>zsh-syntax-highlighting</b>
-`git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+- <b>fast-syntax-highlighting</b>  
+`git clone https://github.com/zdharma/fast-syntax-highlighting.git \
+  ~/.oh-my-zsh/custom/plugins/fast-syntax-highlighting`
 
 #### 3.4 Cloud SDK's
 
 - **Gcloud sdk**
-`curl https://sdk.cloud.google.com | bash`
+`curl https://sdk.cloud.google.com | bash`  
 `gcloud init`
 
 - **IBM Cloud cli**
-`curl -sL https://ibm.biz/idt-installer | bash`
+`curl -sL https://ibm.biz/idt-installer | bash`  
 `ibmcloud login`
 
 
 <a name="Gnomeshell"/>
 
 #### 4. Gnome shell
+dont
 
 #### 4.1 Lock screen gone?
 'gsettings get org.gnome.desktop.lockdown disable-lock-screen'
