@@ -11,7 +11,7 @@ Manjaro XFCE edition
 
 ### 1. Issues and workarounds
 
-1. Unable to git push, ssh, key error  
+1.1: Unable to git push, ssh, key error  
   Start the sshkey-agent:  
 
   `eval "$(ssh-agent -s)"`  
@@ -19,7 +19,11 @@ Manjaro XFCE edition
   add the ssh key:  
 
   `ssh-add ~/%pubkey%`  
+
   
+1.2: High fan speed/temp  
+Check out [throttled](https://github.com/erpalma/throttled)
+
 
 <a name="Awesome"/>
 
