@@ -33,9 +33,7 @@ function run {
         $@&
           fi
           }
-run nm-applet          
-run pa-applet
-run update-checker
+exec nm-applet          
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 ```
 
