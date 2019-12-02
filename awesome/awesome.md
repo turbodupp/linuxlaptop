@@ -68,3 +68,4 @@ I have not figured this one out yet, still todo
    1. [ncspot(terminal based spotify)](https://github.com/hrkfdn/ncspot)
    2. [vis(useless visualizer)](https://github.com/dpayne/cli-visualizer)
    3. [rofi(solid application launcher)](https://github.com/davatorium/rofi)
+   4. [kitty(solid gpu accelerated terminal)](https://github.com/kovidgoyal/kitty)

@@ -25,6 +25,9 @@ Manjaro XFCE edition
 Check out [throttled](https://github.com/erpalma/throttled)
 
 
+1.3: Volume hotkeys not changing volume for bluetooth device?  
+Open sound settings(pavucontrol) in tab Output switch output to integrated audio and then back to Bluetooth Headphones
+
 <a name="Awesome"/>
 
 ### 2. Awesome
